@@ -1,0 +1,43 @@
+/* BUTTONS */
+
+button, 
+.button {
+    line-height: 1;
+    font-family: $heading-fontfamily;
+    font-size: inherit;
+    background-color: gray;
+    color: #fff;
+    padding: .5em 1.2em;
+    display: inline-block;
+    margin: .5em;
+    border-radius: .5em;
+
+    &:hover {
+        background-color: rgb(185, 185, 185);
+        color: rgb(185, 185, 185);
+    }
+
+    &.arrow {
+        // width: 1em;
+        position: absolute;
+        // bottom: -1em;
+        bottom: .05em;
+        right: -.75em;
+        // right: .25em;
+        font-family: $heading-fontfamily;
+        font-size: 5em;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        padding: 0;
+        display: inline-block;
+        margin: 0;
+        border-radius: .5em;
+        text-decoration: none;
+      }
+    
+        &:hover {
+            background-color:none;
+            color: rgb(154, 252, 255);}
+    }
+
+

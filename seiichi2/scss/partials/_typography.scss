@@ -1,0 +1,117 @@
+/* BODY */
+
+body {
+    font-family: $body-fontfamily;
+    font-size: 100%;
+    line-height: 1.4;
+    color: $color-text-body;
+    
+}
+
+/* HEADINGs */
+
+h1, h2, h3 {
+    margin: .5em 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1;
+    font-weight: 700;
+}
+h2 {
+    font-family: lato, sans-serif;
+    // text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 0;
+    font-size: 4em;
+    line-height: 1.1;
+}
+h3 {
+    font-family: lato, sans-serif;
+    max-width: 8em;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.2;
+}
+
+h4{
+    font-family: lato, sans-serif;
+    max-width: 8em;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 2em;
+    text-align: left;
+    line-height: 0;
+}
+
+p {
+    font-size: .9em;
+    text-align: left;
+    max-width: 35em; 
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 100;
+}
+
+
+
+p.meta {
+   max-width: 100%;
+} 
+
+
+
+/* HORIZONTAL RULE */
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.15);
+    margin: 3em 0; }
+  
+  blockquote {
+      
+    text-align: left;
+    margin: 0 auto;
+    font-family: lato, sans-serif;
+    font-weight: 100;
+    // font-style: italic;
+    max-width: 20em;
+    color: grey;
+    line-height: 1em;
+    font-size: 2.1em;
+    }
+  
+  .aligned::before {
+    content: "\201C";
+    position: relative;
+    left: -.5%;
+    margin-left: -5%; }
+  
+  .aligned::after {
+    content: "\201D"; }
+  
+
+
+/* Links */
+a {color: $color-links;}
+a:hover { color: $color-links-dark;}
+
+/* TYPE SPECIMEN */
+
+.mainhead {
+    font-family: $heading-fontfamily;
+    font-size: 5em;
+    color: $color-accent;
+    margin-bottom: 0;
+}
+
+.subhead {
+    font-family: $body-fontfamily;
+    font-weight: 400;
+    color: $color-midgrey;
+    margin-bottom: 1em;
+}
